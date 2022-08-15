@@ -13,3 +13,44 @@
  *= require_tree .
  *= require_self
  */
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.letters {
+  padding: 10px 0;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+h3 {
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.user-input {
+  padding: 20px 0;
+}
+
+.letters div {
+  display: inline-block;
+  font-family: courier, monospace;
+  text-align: center;
+  font-size: 24px;
+  color: #FFFFFF;
+  background-color: #267DF6;
+  border: 1px solid #E8EFF4;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px lightgrey;
+  border-radius: 5px;
+}
